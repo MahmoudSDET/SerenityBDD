@@ -28,7 +28,7 @@ public class CarPriceTest {
 
 
 
-	@Managed
+	@Managed (driver="chrome")
 	WebDriver driver;
 	
 	

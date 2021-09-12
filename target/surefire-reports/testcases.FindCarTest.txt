@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: testcases.FindCarTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 112.521 s <<< FAILURE! - in testcases.FindCarTest
+testcases.FindCarTest.findCarTest[0]  Time elapsed: 30.164 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$530/0x0000000800fa9470@55bf35e5 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:45)
+
+testcases.FindCarTest.findCarTest[1]  Time elapsed: 24.836 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$530/0x0000000800fa9470@8b670c0 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:45)
+
+testcases.FindCarTest.findCarTest[2]  Time elapsed: 23.316 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$530/0x0000000800fa9470@70f4abc1 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:45)
+
+testcases.FindCarTest.findCarTest[3]  Time elapsed: 27.107 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$530/0x0000000800fa9470@ff4b223 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:45)
+

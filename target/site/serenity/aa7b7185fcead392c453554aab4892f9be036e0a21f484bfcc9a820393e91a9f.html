@@ -102,7 +102,7 @@
             <a href="0272dadd83d6e6ac748d9a947522ca78b8873f5156f9bd38d6a0eb735ee5993b.html"><i class="fa fa-comments-o"></i> Epics</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-09-2021 15:28</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-09-2021 12:35</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -215,10 +215,10 @@
                     <th width="65">                        &nbsp;
                     </th>
 
-                        <th width="%" class="step-description-column greentext">
+                        <th width="%"
+                            class="step-description-wide-column greentext">
                             Steps
                         </th>
-                        <th width="150" class="greentext">Screenshots</th>
                     <th width="130" class="greentext">Outcome</th>
                     <th width="80" class="greentext"><i title="Duration" class="far fa-clock"></i></th>
                 </tr>
@@ -246,34 +246,18 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=0">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                                <i class="fas fa-arrow-right"></i>
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=2">
-                                    <img src="8cfeae9825d2b03708b40987d743ed824fdc0ba30885d4b80efdb434a6eea6de.png"
-                                         href="8cfeae9825d2b03708b40987d743ed824fdc0ba30885d4b80efdb434a6eea6de.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
                     <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">20.47s</span></td>
+                    <td width="100"><span class="top-level-step">2.78s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
                         <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="50" class="step-icon">
                         <a name="0-0"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -284,23 +268,59 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=1">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">9.45s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">2.77s</span></td>
                 </tr>
-                <tr class="test-ERROR">
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-2">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.DriverConfigurationError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java:18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: net.thucydides.core.webdriver.DriverConfigurationError
+                    </h4>
+                    <div>
+                            <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 83<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'<br>Driver info: driver.version: ProvideNewDriver<br>remote stacktrace: Backtrace:<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00639563+2725219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00538551+1672529]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00420359+525145]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B0B77+68471]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003AD32C+54060]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCC37+183351]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCA3D+182845]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CA94B+174411]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B2528+75048]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B35A0+79264]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B3539+79161]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054D607+1758727]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756546+1050150]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756291+1049457]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x007610D7+1094071]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756B46+1051686]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00545B06+1727238]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054EB7B+1764219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054ECE3+1764579]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00564C05+1854469]<br>&nbsp; &nbsp; &nbsp; &nbsp;BaseThreadInitThunk [0x76378674+36]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5E17+311]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5DE7+263]<br>). See below for more details.</pre>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java :18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java :44)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="0-1"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -311,56 +331,9 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=2">
-                                    <img src="8cfeae9825d2b03708b40987d743ed824fdc0ba30885d4b80efdb434a6eea6de.png"
-                                         href="8cfeae9825d2b03708b40987d743ed824fdc0ba30885d4b80efdb434a6eea6de.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">11.02s</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$379/0x0000000800e6e5c0@479111ba (tried for 10 second(s) with 50 milliseconds interval)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;2P-23&#39;, ip: &#39;10.30.1.116&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;15.0.2&#39;<br>Driver info: driver.version: unknown</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-3""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-3">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.TimeoutException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>base.BasePage.moveMouseTo(BasePage.java:108)<br />pages.HomePage.findNewCars(HomePage.java:12)<br />steps.CarWaleSteps.findNewCars(CarWaleSteps.java:26)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                        </td>
-                    </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="0-2"/>
@@ -376,9 +349,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -397,9 +367,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -428,34 +395,18 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=3">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                                <i class="fas fa-arrow-right"></i>
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=5">
-                                    <img src="590df1c5980a1f23a9ba333169e1fb48cefd4d1f4a3b9bb8adc95aa7ecaff6ac.png"
-                                         href="590df1c5980a1f23a9ba333169e1fb48cefd4d1f4a3b9bb8adc95aa7ecaff6ac.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
                     <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">17.45s</span></td>
+                    <td width="100"><span class="top-level-step">1.67s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
                         <table id="stepSection1" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="50" class="step-icon">
                         <a name="1-0"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -466,23 +417,59 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=4">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">6.53s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">1.66s</span></td>
                 </tr>
-                <tr class="test-ERROR">
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-7""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-7">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.DriverConfigurationError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java:18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: net.thucydides.core.webdriver.DriverConfigurationError
+                    </h4>
+                    <div>
+                            <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 83<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'<br>Driver info: driver.version: ProvideNewDriver<br>remote stacktrace: Backtrace:<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00639563+2725219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00538551+1672529]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00420359+525145]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B0B77+68471]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003AD32C+54060]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCC37+183351]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCA3D+182845]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CA94B+174411]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B2528+75048]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B35A0+79264]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B3539+79161]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054D607+1758727]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756546+1050150]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756291+1049457]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x007610D7+1094071]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756B46+1051686]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00545B06+1727238]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054EB7B+1764219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054ECE3+1764579]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00564C05+1854469]<br>&nbsp; &nbsp; &nbsp; &nbsp;BaseThreadInitThunk [0x76378674+36]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5E17+311]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5DE7+263]<br>). See below for more details.</pre>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java :18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java :44)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="1-1"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -493,56 +480,9 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=5">
-                                    <img src="590df1c5980a1f23a9ba333169e1fb48cefd4d1f4a3b9bb8adc95aa7ecaff6ac.png"
-                                         href="590df1c5980a1f23a9ba333169e1fb48cefd4d1f4a3b9bb8adc95aa7ecaff6ac.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">10.92s</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$379/0x0000000800e6e5c0@527a8665 (tried for 10 second(s) with 50 milliseconds interval)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;2P-23&#39;, ip: &#39;10.30.1.116&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;15.0.2&#39;<br>Driver info: driver.version: unknown</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-8""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-8">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.TimeoutException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>base.BasePage.moveMouseTo(BasePage.java:108)<br />pages.HomePage.findNewCars(HomePage.java:12)<br />steps.CarWaleSteps.findNewCars(CarWaleSteps.java:26)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                        </td>
-                    </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="1-2"/>
@@ -558,9 +498,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -579,9 +516,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -610,34 +544,18 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=6">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                                <i class="fas fa-arrow-right"></i>
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=8">
-                                    <img src="9ded3d07571d7753ccd8683f7d85e59873078eb49da2d9025ed58793a9a81efb.png"
-                                         href="9ded3d07571d7753ccd8683f7d85e59873078eb49da2d9025ed58793a9a81efb.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
                     <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">16.77s</span></td>
+                    <td width="100"><span class="top-level-step">1.61s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
                         <table id="stepSection2" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="50" class="step-icon">
                         <a name="2-0"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -648,23 +566,59 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=7">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">5.99s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">1.61s</span></td>
                 </tr>
-                <tr class="test-ERROR">
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-12""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.DriverConfigurationError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java:18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: net.thucydides.core.webdriver.DriverConfigurationError
+                    </h4>
+                    <div>
+                            <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 83<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'<br>Driver info: driver.version: ProvideNewDriver<br>remote stacktrace: Backtrace:<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00639563+2725219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00538551+1672529]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00420359+525145]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B0B77+68471]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003AD32C+54060]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCC37+183351]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCA3D+182845]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CA94B+174411]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B2528+75048]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B35A0+79264]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B3539+79161]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054D607+1758727]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756546+1050150]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756291+1049457]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x007610D7+1094071]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756B46+1051686]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00545B06+1727238]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054EB7B+1764219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054ECE3+1764579]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00564C05+1854469]<br>&nbsp; &nbsp; &nbsp; &nbsp;BaseThreadInitThunk [0x76378674+36]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5E17+311]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5DE7+263]<br>). See below for more details.</pre>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java :18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java :44)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="2-1"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -675,56 +629,9 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=8">
-                                    <img src="9ded3d07571d7753ccd8683f7d85e59873078eb49da2d9025ed58793a9a81efb.png"
-                                         href="9ded3d07571d7753ccd8683f7d85e59873078eb49da2d9025ed58793a9a81efb.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">10.77s</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$379/0x0000000800e6e5c0@5122e4bf (tried for 10 second(s) with 50 milliseconds interval)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;2P-23&#39;, ip: &#39;10.30.1.116&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;15.0.2&#39;<br>Driver info: driver.version: unknown</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-13""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-13">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.TimeoutException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>base.BasePage.moveMouseTo(BasePage.java:108)<br />pages.HomePage.findNewCars(HomePage.java:12)<br />steps.CarWaleSteps.findNewCars(CarWaleSteps.java:26)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                        </td>
-                    </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="2-2"/>
@@ -740,9 +647,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -761,9 +665,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -792,34 +693,18 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=9">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                                <i class="fas fa-arrow-right"></i>
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=11">
-                                    <img src="2a7cd75864f4aeb8b644fc14f1b22d4b91ae520cef814841669d8453334ebf63.png"
-                                         href="2a7cd75864f4aeb8b644fc14f1b22d4b91ae520cef814841669d8453334ebf63.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
                     <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">17.61s</span></td>
+                    <td width="100"><span class="top-level-step">1.55s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
                         <table id="stepSection3" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="50" class="step-icon">
                         <a name="3-0"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -830,23 +715,59 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=10">
-                                    <img src="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         href="dcde596afac43f15c06949b70e34ba5ca33b158f36ac96000c5da408c2adff31.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">6.86s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">1.55s</span></td>
                 </tr>
-                <tr class="test-ERROR">
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-17""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-17">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.DriverConfigurationError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java:18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: net.thucydides.core.webdriver.DriverConfigurationError
+                    </h4>
+                    <div>
+                            <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 83<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: '2P-23', ip: '10.30.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'<br>Driver info: driver.version: ProvideNewDriver<br>remote stacktrace: Backtrace:<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00639563+2725219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00538551+1672529]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00420359+525145]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B0B77+68471]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003AD32C+54060]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCC37+183351]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CCA3D+182845]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003CA94B+174411]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B2528+75048]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B35A0+79264]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B3539+79161]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054D607+1758727]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756546+1050150]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756291+1049457]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x007610D7+1094071]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00756B46+1051686]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00545B06+1727238]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054EB7B+1764219]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0054ECE3+1764579]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00564C05+1854469]<br>&nbsp; &nbsp; &nbsp; &nbsp;BaseThreadInitThunk [0x76378674+36]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5E17+311]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x779E5DE7+263]<br>). See below for more details.</pre>
+                        <pre>steps.CarWaleSteps.navigate(CarWaleSteps.java :18)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java :44)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="3-1"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -857,56 +778,9 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="ERROR-text">
-
-                                <a href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f_screenshots.html#screenshots?screenshot=11">
-                                    <img src="2a7cd75864f4aeb8b644fc14f1b22d4b91ae520cef814841669d8453334ebf63.png"
-                                         href="2a7cd75864f4aeb8b644fc14f1b22d4b91ae520cef814841669d8453334ebf63.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">10.75s</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$379/0x0000000800e6e5c0@55222ee9 (tried for 10 second(s) with 50 milliseconds interval)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;2P-23&#39;, ip: &#39;10.30.1.116&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;15.0.2&#39;<br>Driver info: driver.version: unknown</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-18""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-18">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.TimeoutException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>base.BasePage.moveMouseTo(BasePage.java:108)<br />pages.HomePage.findNewCars(HomePage.java:12)<br />steps.CarWaleSteps.findNewCars(CarWaleSteps.java:26)<br />testcases.CarPriceTest.findCarNameandPriceTest(CarPriceTest.java:44)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                        </td>
-                    </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="3-2"/>
@@ -922,9 +796,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -943,9 +814,6 @@
                             </span>
                         </div>
                     </td>
-                        <td width="160" class="SKIPPED-text">
-
-                        </td>
                     <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
@@ -954,9 +822,9 @@
                     </td>
                 <tr>
                 <tr class="test-ERROR">
-                        <td colspan="3"></td>
+                        <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>72.29s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>7.61s</em></span></td>
                 </tr>
 
             </table>

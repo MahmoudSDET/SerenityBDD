@@ -28,7 +28,7 @@ public class FindCarTest {
 
 
 
-	@Managed
+	@Managed (driver="firefox")
 	WebDriver driver;
 	
 	
